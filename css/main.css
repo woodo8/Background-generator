@@ -1,0 +1,82 @@
+body{
+	background-color: lavender;
+}
+nav{
+	box-shadow: 3px 0 6px black;
+}
+
+/*first part*/
+
+#spec{
+	margin-top: 150px;
+}
+#instBlock{
+	background-color: #495057;
+	color: white;
+	border-radius: 40px;
+}
+input{
+	width: 30%;
+	background-color: transparent;
+	outline: none;
+	color: white;
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 10px;
+	text-align: center;
+}
+#clickMe{
+	width: 25%;
+	margin: 30px auto;
+	padding: 10px;
+
+}
+
+/*second part*/
+
+#randBlock{
+	margin-top: 200px;
+	padding: 40px 0 25px;
+	border-radius: 40px;
+	background-color: silver;
+}
+#randBlock button{
+	padding: 12px 15px;
+	border-radius: 15px;
+}
+#randBlock h6{
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar button{
+  	width: 140px;
+  	margin-bottom: 10px;
+  }
+  #spec h1{
+  	font-size: 16px;
+  	padding: 5px;
+  }
+  #spec input{
+  	font-size: 12px;
+  	padding: 2px;
+  	font-weight: 500;
+  }
+  #instBlock{
+  	border-radius: 15px;
+  }
+  #randBlock{
+  	border-radius: 15px;
+  	padding-bottom: 40px;
+  }
+  #randBlock h6{
+  	font-size: 12px;
+  }
+  #randBlock button{
+  	width: 60%;
+  	font-size: 14px;
+  	line-height: 11px;
+  }
+}
